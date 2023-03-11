@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    color: #fff;
+    background-image: url("images/layered-waves-haikei-1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.main{
+    padding: 1rem;
+}
+nav{
+    position: sticky !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 1;
+    background-color:  rgba(150, 150, 150, 0.2);
+    backdrop-filter: blur(5px);
+    margin-bottom: 1.5rem;
+    color: white !important;
+    border: 1px solid  rgba(255, 255, 255, 0.3);
+    border-radius: 1rem;
+}
+.navbar-brand{
+   padding-left: 3rem;
+   color: white !important;
+}
+.nav-link{
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    color: white !important;
+}
+.row, .container-fluid{
+    margin:0 0 1rem 0 ;
+}
+.first-row, .third-row, .fourth-row, .fifth-row, .sixth-row, .section-partners, .social, .footer{
+    padding: 1rem;
+    background-color:  rgba(150, 150, 150, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid  rgba(255, 255, 255, 0.3);
+    border-radius: 2rem;
+}
+.first-row h1{
+    margin-bottom: 2rem;
+}
+.first-row img{
+    margin-top: 1rem;
+}
+.first-row button{
+    background-image: linear-gradient(to right, #26b7c4, #8d2ab4);
+    color: #fff;
+    border: none;
+}
+
+.second-row{
+    justify-content: space-between;
+    align-content: space-between;
+}
+.second-row .container{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color:  rgba(150, 150, 150, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid  rgba(255, 255, 255, 0.3);
+    border-radius: 2rem;
+    text-align: center;
+}
+.second-row .container img{
+    margin: 1rem;
+}
+.second-row button{
+    background-image: linear-gradient(to right, #26b7c4, #8d2ab4);
+    color: #fff;
+    border: none;
+}
+.section-title{
+    background-image: linear-gradient(to right, #26b7c4, #8d2ab4);
+    color: #fff;
+    padding: 6px 10px;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    font-size: 20px;
+ }
+ .section-partners .section-title{
+   text-align: center;
+}
+.section-title img{
+   margin-left: 1rem;
+ }
+.section-partners img{
+    margin: 1rem;
+}
+.third-row > .left, .right{
+   text-align: center;
+   margin-bottom: 2rem;
+}
+.third-row button{
+    background-image: linear-gradient(to right, #26b7c4, #8d2ab4);
+    color: #fff;
+    border: none;
+}
+.third-row button:hover{
+    background-color: #fff !important;
+    color: #8d2ab4 !important;
+    border: none !important;
+}
+.fourth-row a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+#accordion, .card{
+    background-color:  rgba(150, 150, 150, 0.2) !important;
+}
+.fifth-row .left .img{
+    display: block;
+    margin: auto;
+    width: 4rem;
+    height: auto;
+    margin-bottom: 1rem;
+}
+  .fifth-row .right{
+    text-align: center;
+  }
+  .fifth-row .right input{ 
+    background-color:  rgba(150, 150, 150, 0.2) !important;
+    color: #fff;
+    margin-bottom: 2rem;
+    border-radius: 0.7rem;
+}
+  .fifth-row .right input[type="submit"]{ 
+    width: 50%;
+    background-image: linear-gradient(to right, #26b7c4, #8d2ab4);
+    color: #fff;
+    margin: auto;
+}
+.fifth-row .right input[type="submit"]:hover{ 
+    background-color: #fff !important;
+    color: #8d2ab4 !important;
+    border: none !important;
+}
+ .sixth-row ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+ .sixth-row ul li{
+    padding-bottom: 1rem;
+ }
+ .sixth-row ul li a{
+   color: #fff 
+ }
+ .footer{
+    text-align: center;
+ }
+ .footer i{
+    color:  #fff;
+    font-size: 2rem;
+    padding-left: 1rem;
+ }
+ .footer{
+    margin-top: 1rem;
+    font-size: 18px;
+    text-align: center;
+ }
+ .footer a{
+    color: #fff;
+    padding-left: 1rem; 
+ }
+ 
+ 
