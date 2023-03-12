@@ -6,6 +6,7 @@
 body,html{
     height: 100%;
     color: #fff;
+    font-family: 'poppins';
     background-image: url("images/layered-waves-haikei-1.png");
     background-size: cover;
     background-position: center;
